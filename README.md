@@ -5,7 +5,7 @@
 An analysis workflow implemented to a Jupyter notebook was used to look at XGM (X-ray Gas Monitor) data that were recorded in the same time interval, but in different parts of European XFEL. It essence, pulse energy (intensity) values from one XGM in SASE1 were compared to another set from an XGM in SASE3. These data stem from alternating X-ray pulses sent through one or the other tunnel and recorded separately. The aim was to determine the suppression rate for intensity from unwanted residual photons in each "non-pulse" time interval.
 Conceptually and technically, this analysis makes use of the data-object xarray.DataArray within the EXtra-data framework and implements a simple form of error propagation. It is already public as example notebook in the EXtra-data documentation: https://extra-data.readthedocs.io/en/latest/xpd_examples2.html, and could be of value to PaNOSC due to its transferability to the general case of data comparison and/or error determination.
 
-## Scientists
+## Developers
 
 Theophilos Maltezopoulos, Jan Grünert, Thomas Kluyver, Fabio Dall'Antonia
 
